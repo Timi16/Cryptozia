@@ -1,0 +1,165 @@
+body{
+    background-color: rgb(52, 52, 52);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.stats h2, .stats p{
+    margin: 0;
+    font-weight: bold;
+}
+.lower-contents h2, .lower-contents p{
+    margin: 0;
+}
+.coin-container{
+    margin-top: 3rem;
+    padding: .5rem;
+}
+.solona{
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+}
+.vertical-contents{
+    display: flex;
+    flex-direction: row;
+    gap: .5rem;
+}
+.manage-token{
+    display: flex;
+    flex-direction: row;
+    gap: .5rem;
+    align-items: center;
+}
+@media (min-width: 760px) and (max-width: 991px) {
+.top-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.amount{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%; 
+    font-weight: bold;
+}
+.top-buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+button{
+    padding: .5rem 2rem;
+    background-color: purple;
+    color: white;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border: none;
+    font-size: 1rem;
+}
+.coin-container{
+    background-color: rgb(54, 53, 53);
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+}
+}
+@media(max-width: 760px) {
+    .top-header{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .amount{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%; 
+        font-weight: bold;
+    }
+    .amount h1{
+        font-size: 3rem;
+    }
+    .amount span{
+        background-color: rgb(107, 107, 107);
+        padding: .2rem;
+    }
+    .top-buttons{
+        margin-top: 2rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        gap: .5rem;
+    }
+    button{
+        padding: .5rem 2rem;
+        background-color: rgb(214, 113, 214);
+        color: black;
+        border-top-right-radius: 15px;
+        border-top-left-radius: 15px;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+        border: none;
+        font-size: 1rem;
+        font-weight: bold;
+    }
+    button:active{
+        background-color: rgb(169, 81, 169);
+        transition: all 1s ease;
+    }
+    .coin-container{
+        background-color: rgb(78, 78, 78);
+        justify-content: space-between;
+        display: flex;
+        width: 95%;
+        flex-direction: row;
+        border-top-right-radius: 5px;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
+    .manage-token{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .amount h1, .amount p{
+        margin: 0;
+    }
+    .bottom-container{
+        position: absolute;
+        bottom: 1rem;
+        width: 18rem;
+        height: 5rem;
+        background-color: rgb(91, 91, 91);
+        border-top-right-radius: 15px;
+        border-top-left-radius: 15px;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+        border: .2rem solid white;
+    }
+    .bottom-container{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        gap: 1rem;
+    }
+    .box{
+        width: 3.5rem;
+        height: 3rem;
+        background-color: red;
+        margin-left: .5rem; margin-right: .5rem;
+    }
+}

@@ -1,0 +1,183 @@
+body{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-image: url('images/5da08053fa26dde74d596f98740d08a5.jpg');
+}
+.top-containers{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+.count-board, .squad-board{
+    width: 10rem;
+    height: 5rem;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border: .2rem solid white;
+}
+.count-board{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #bdddfe;
+    box-shadow: 0 8px 2px rgba(0, 0, 0, 0.292);
+}
+.inner-count{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.loader{
+    width: 70%;
+    height: 1.5rem;
+    border: .1rem solid white;
+    background-color: blue;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.lower-counter{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+gap: 1rem;
+height: 1.5rem;
+}
+.first-stats{
+    display: flex;
+    align-items: center;
+}
+.second-stats{
+    display: flex;
+    align-items: center;
+}
+.squad-board{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffd7fe;
+    box-shadow: 0 8px 2px rgba(0, 0, 0, 0.29);
+}
+.squad-board h4{
+    color: white;
+    margin: 0;
+}
+#bottom-container{
+    position: absolute;
+    bottom: 2rem;
+    width: 18rem;
+    height: 8rem;
+    background-image: url('images/Blue\ Wallpaper\ 💙.jfif');
+    background-position: cover;
+    box-shadow: 0 8px 2px rgba(0, 0, 0, 0.292);
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border: .2rem solid white;
+}
+.bar-container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 30%;
+    align-items: center;
+    justify-content: center;
+    gap: .5rem;
+}
+.progress-bar{
+    background-color: yellow;
+    width: 70%;
+    height: 30%;
+    border: .2rem solid white;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.count-reading{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.count-reading h4{
+    color: white;
+}
+.bottom-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    position: relative;
+    top: 2rem;
+}
+.box{
+    width: 3.5rem;
+    height: 3rem;
+    background-color: red;
+    margin-left: .5rem; margin-right: .5rem;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.box h4{
+    margin: 0;
+    color: white;
+    color: white; 
+    text-decoration-color: red; 
+}
+.box2{
+    background-color: #ff81ef;
+}
+.box1{
+    background-color:#fff065;
+}
+.box3{
+    background-color: #b3efd1;
+}
+.disappearing-coins{
+    width: 90%;
+    position: absolute;
+    top: 19rem;
+    margin-left: 1rem; 
+    
+
+}
+.split-coin{
+    width: 100%;
+    position: absolute;
+    top: 6rem;
+}
+.spread-coins{
+    width: 100%;
+    position: absolute;
+    top: 7rem;
+}
+.random-coins{
+    width: 100%;
+    position: absolute;
+    top: 8rem;
+}
+.bonus-coins{
+    width: 100%;
+    position: absolute;
+    top: .5rem;
+}
